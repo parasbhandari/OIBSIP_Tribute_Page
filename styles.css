@@ -1,0 +1,100 @@
+body{
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+.top-container{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+.top-container>div{
+  background-color: rgba(216, 216, 216, 0.794);
+  padding: 30px;
+}
+h1{
+  font-size: 80px;
+  max-width: 80%;
+}
+h3{
+  font-size: 50px;
+  text-align: left;
+  position: relative;
+  left: 100px;
+}
+img{
+  border-radius: 50%;
+  position: relative;
+  right: 40px;
+}
+@media (max-width:768px) {
+  .top-container{
+    min-width: 500px;
+  }
+}
+.main-container{
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px
+
+ 
+}
+.timeline{
+  padding: 20px;
+  margin-left: 25%;
+  background-color: rgba(216, 216, 216, 0.794);;
+
+}
+.achievement{
+  padding: 20px;
+  margin-right: 25%;
+  background-color:rgba(216, 216, 216, 0.794);
+}
+li{
+  margin-bottom: 10px
+}
+.timeline>h2{
+  font-size: 30px;
+  font-weight: 200;
+  position: relative;
+  left: 30px;
+}
+.achievement h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: sans-serif;
+}
+.great-work p{
+  font-size: 20px;
+  border: 2px;
+  padding: 15px;
+  background-color: white;
+  color: rgb(66, 132, 219);
+  text-align: center;
+}
+.quotes{
+  color:rgb(182, 124, 47)
+}
+.p-quote{
+  font-size: 20px;
+}
+.p-quote p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid-item{
+  grid-column-start:1;
+  grid-column-end:3;
+  background-color:rgba(216, 216, 216, 0.794);
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+  margin-right:20%;
+  margin-left: 8%;
+
+} 
+.copyright{
+  text-align: center;
+  font-size: 25px;
+}
